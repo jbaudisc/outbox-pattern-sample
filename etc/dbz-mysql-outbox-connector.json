@@ -1,0 +1,15 @@
+{
+  "name": "mysql-outbox-src-connector-01",
+  "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+  "tombstones.on.delete": "false",
+  "database.user": "debezium",
+  "topic.prefix": "dbserver1",
+  "database.server.id": "12345",
+  "tasks.max": "1",
+  "database.hostname": "mysql",
+  "database.password": "dbz",
+  "table.include.list": "outbox-demo.outbox_event",
+  "database.port": "3306",
+  "schema.history.internal.kafka.topic": "schema-changes.outbox-demo",
+  "schema.history.internal.kafka.bootstrap.servers": "localhost:9092"
+}
