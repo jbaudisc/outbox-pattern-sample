@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ExampleConsumer {
-    @KafkaListener(topics = "schema-changes.outbox-demo")
+    @KafkaListener(topics = "dbserver1.outbox-demo.outbox_event")
     public void read(ConsumerRecord<String, GenericRecord> record){
         //get data from record
         GenericRecord order=record.value();
