@@ -6,7 +6,7 @@ import com.github.hpgrahsl.ms.outbox.sample.event.OrderUpsertedEvent;
 import com.github.hpgrahsl.ms.outbox.sample.outbox.Outboxable;
 import org.springframework.data.domain.DomainEvents;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;

@@ -2,7 +2,7 @@ package com.github.hpgrahsl.ms.outbox.sample.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
